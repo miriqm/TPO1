@@ -35,29 +35,42 @@ La barra de navegación en la parte superior del sitio contiene los siguientes e
 * **Google Fonts:** Servicio para importar la fuente Montserrat.
 
 ## Estructura del Proyecto
-├── index.html      # Archivo HTML principal con la barra de navegación y los enlaces (puntos de conexión para contenido futuro)
-├── styles.css      # Archivo CSS con estilos para la barra de navegación y el diseño general, preparado para la integración de contenido futuro
-├── logo_te.png     # Imagen del logo (reemplazar con tu logo)
-├── hero_tea.jpg    # Imagen de la sección hero (reemplazar con tu imagen)
-├── te_oolong.jpg   # Imagen de té oolong (reemplazar con tus imágenes)
-├── te_verde.jpg    # Imagen de té verde (reemplazar con tus imágenes)
-├── te_blanco.jpg   # Imagen de té blanco (reemplazar con tus imágenes)
-├── te_negro.jpg    # Imagen de té negro (reemplazar con tus imágenes)
-├── te_azul.jpg     # Imagen de té azul/oolong (reemplazar con tus imágenes)
-├── te_masalaChai.jpg # Imagen de té masala chai (reemplazar con tus imágenes)
-├── lata_chai.jpg   # Imagen de lata de té chai (reemplazar con tus imágenes)
-├── lata-oolong.jpg # Imagen de lata de té oolong (reemplazar con tus imágenes)
-├── lata-teNegro.jpg # Imagen de lata de té negro (reemplazar con tus imágenes)
-├── lata_blanco.jpg # Imagen de lata de té blanco (reemplazar con tus imágenes)
-└── README.md       # Este archivo
 
+```
+Tienda-Te-prueba/
+├── index.html           # Archivo HTML principal con la barra de navegación y los enlaces
+├── styles.css           # Archivo CSS con estilos generales
+├── images/
+│   ├── logo_te.png          # Imagen del logo (reemplazar con tu logo)
+│   ├── hero_tea.jpg         # Imagen de la sección hero
+│   ├── te_oolong.jpg        # Imagen de té oolong
+│   ├── te_verde.jpg         # Imagen de té verde
+│   ├── te_blanco.jpg        # Imagen de té blanco
+│   ├── te_negro.jpg         # Imagen de té negro
+│   ├── te_azul.jpg          # Imagen de té azul/oolong
+│   ├── te_masalaChai.jpg    # Imagen de té masala chai
+│   ├── lata_chai.jpg        # Imagen de lata de té chai
+│   ├── lata-oolong.jpg      # Imagen de lata de té oolong
+│   ├── lata-teNegro.jpg     # Imagen de lata de té negro
+│   └── lata_blanco.jpg      # Imagen de lata de té blanco
+├── pages/
+│   ├── tutoriales.html      # Página de tutoriales
+│   ├── menu.html            # Página de menú
+│   ├── trabajaConNos.html   # Página de trabaja con nosotros
+│   ├── franquicias.html     # Página de franquicias
+│   └── contact.html         # Página de contacto
+├── css/
+│   ├── franquicias.css      # Estilos para la página de franquicias
+│   ├── menu.css             # Estilos para la página de menú
+│   └── tutoriales.css       # Estilos para la página de tutoriales
+└── README.md            # Este archivo
+```
 
 ## Cómo Utilizar
 
 1.  **Clonar el repositorio (si aplica):**
     ```bash
-    git clone [https://github.com/sindresorhus/del](https://github.com/sindresorhus/del)
-    cd [nombre del proyecto]
+    git clone https://github.com/miriqm/TPO1.git
     ```
 
 2.  **Abrir el archivo `index.html` en tu navegador web.**

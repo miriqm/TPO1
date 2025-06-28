@@ -41,7 +41,7 @@ Tienda-Te-prueba/
 ├── index.html           # Archivo HTML principal con la barra de navegación y los enlaces
 ├── styles.css           # Archivo CSS con estilos generales
 ├── images/
-│   ├── logo_te.png          # Imagen del logo (reemplazar con tu logo)
+│   ├── logo_te.png          # Imagen del logo
 │   ├── hero_tea.jpg         # Imagen de la sección hero
 │   ├── te_oolong.jpg        # Imagen de té oolong
 │   ├── te_verde.jpg         # Imagen de té verde
